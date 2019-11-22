@@ -43,14 +43,14 @@ function register_block() {
 		'happyprime-scrolling-sections-editor',
 		plugins_url( 'editor.css', __FILE__ ),
 		array(),
-		block_version(),
+		block_version()
 	);
 
 	wp_register_style(
 		'happyprime-scrolling-sections',
 		plugins_url( 'style.css', __FILE__ ),
 		array(),
-		block_version(),
+		block_version()
 	);
 
 	register_block_type(
