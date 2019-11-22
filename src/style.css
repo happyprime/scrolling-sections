@@ -1,3 +1,8 @@
+.scroll-lock {
+	height: 100vh;
+	overflow: hidden;
+}
+
 .wp-block-happyprime-scrolling-sections {
 	margin: 0;
 	overflow: hidden;
