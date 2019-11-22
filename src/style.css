@@ -1,0 +1,21 @@
+.wp-block-happyprime-scrolling-sections {
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	width: 100vw;
+}
+
+.wp-block-happyprime-scrolling-sections.alignfull {
+	margin-top: 0;
+}
+
+.wp-block-happyprime-scrolling-sections > div {
+	transition-property: transform;
+}
+
+.wp-block-happyprime-scrolling-sections article,
+.wp-block-happyprime-scrolling-sections article > div {
+	height: 100vh;
+	position: relative;
+	width: 100%;
+}
