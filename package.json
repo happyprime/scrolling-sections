@@ -4,18 +4,31 @@
   "description": "A block for creating full-height scrolling sections",
   "author": "Happy Prime",
   "license": "GPL-2.0-or-later",
+  "keywords": [
+	"wordpress",
+	"block"
+  ],
+  "homepage": "https://github.com/happyprime/scrolling-sections",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyprime/scrolling-sections.git"
+  },
+  "bugs": {
+	"url": "https://github.com/happyprime/scrolling-sections"
+  },
+  "dependencies": {
+    "wheel-indicator": "^1.3.0"
+  },
   "devDependencies": {
-    "@wordpress/scripts": "^3.4.0"
+    "@wordpress/scripts": "^22.0.0"
   },
   "scripts": {
     "build": "wp-scripts build",
     "check-engines": "wp-scripts check-engines",
     "check-licenses": "wp-scripts check-licenses --production",
     "lint:css": "wp-scripts lint-style '**/*.css'",
-    "lint:js": "wp-scripts lint-js 'src/*.js'",
-    "lint:pkg-json": "wp-scripts lint-pkg-json .",
-    "start": "wp-scripts start",
-    "test:e2e": "wp-scripts test-e2e",
-    "test:unit": "wp-scripts test-unit-js"
+    "lint:js": "wp-scripts lint-js 'blocks/**/*.js'",
+    "lint:fix": "wp-scripts lint-js 'blocks/**/*.js' --fix",
+    "lint:pkg-json": "wp-scripts lint-pkg-json ."
   }
 }
