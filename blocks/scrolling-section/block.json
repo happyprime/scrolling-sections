@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "happyprime/scrolling-section",
+	"title": "Scrolling Section",
+	"category": "design",
+	"icon": "media-default",
+	"description": "An individual full-height scrolling section",
+	"keywords": [ "toggle", "faq", "show hide", "accordion" ],
+	"version": "1.0.0",
+	"textdomain": "scrolling-sections",
+	"editorScript": "file:../../build/scrolling-section.js",
+	"parent": [ "happyprime/scrolling-sections" ]
+}

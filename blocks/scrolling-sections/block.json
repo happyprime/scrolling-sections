@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "happyprime/scrolling-sections",
+	"title": "Scrolling Sections",
+	"category": "design",
+	"icon": "iamge-flip-vertical",
+	"description": "Create full-height scrolling sections on the page",
+	"keywords": [],
+	"version": "1.0.0",
+	"textdomain": "show-hide-section",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		}
+	},
+	"supports": {
+		"multiple": false,
+		"align": [ "full" ]
+	},
+	"editorScript": "file:../../build/scrolling-sections.js",
+	"editorStyle": "file:../../build/scrolling-sections.css",
+	"viewScript": "happyprime-scrolling-sections-front-end",
+	"style": "file:./style.css"
+}
