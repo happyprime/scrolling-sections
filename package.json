@@ -28,7 +28,7 @@
     "check-licenses": "wp-scripts check-licenses --production",
     "lint:css": "wp-scripts lint-style '**/*.css'",
     "lint:js": "wp-scripts lint-js 'blocks/**/*.js'",
-	"lint:fix": "wp-scripts lint-js 'blocks/**/*.js' --fix",
+    "lint:fix": "wp-scripts lint-js 'blocks/**/*.js' --fix",
     "lint:pkg-json": "wp-scripts lint-pkg-json ."
   }
 }

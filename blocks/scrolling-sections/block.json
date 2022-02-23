@@ -4,11 +4,11 @@
 	"name": "happyprime/scrolling-sections",
 	"title": "Scrolling Sections",
 	"category": "design",
-	"icon": "iamge-flip-vertical",
+	"icon": "image-flip-vertical",
 	"description": "Create full-height scrolling sections on the page",
 	"keywords": [],
 	"version": "1.0.0",
-	"textdomain": "show-hide-section",
+	"textdomain": "scrolling-sections",
 	"attributes": {
 		"align": {
 			"type": "string",
