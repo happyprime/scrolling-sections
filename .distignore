@@ -1,0 +1,6 @@
+.distignore
+.git
+.github
+.gitignore
+node_modules
+webpack.config.js
